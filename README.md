@@ -1,2 +1,3 @@
 # BlackJack_in_Python
-I used Python to create the card game Black Jack.
+
+BlackJack is a card game that involves a dealer and a player. Every round the player makes a bet based on their odds of beating the dealer. The goal is for the player to get closest to 21 points with the cards in their hand, but if the dealer surpasses the player points, the player loses their bet. If both the dealer and player get the same amount of points, no one wins. Every round the player chooses whether to hit or stay with their cards depending on how close they are to 21. If they hit and pass 21 points they automatically lose and same goes for the dealer. Aces can either be 1 or 14 points depending on the hand. 
