@@ -112,3 +112,27 @@ def hit_or_stand(deck,hand):
             print('Sorry, please try again.')
             continue
         break
+
+def show_some(player,dealer):
+    
+    # Show only ONE of the dealer's card
+    print("\nDealer's Hand: ")
+    print("  First card hidden")
+    print(f'  {dealer.cards[1]}')
+    
+    # Show all (2 cards) of the player's hand/cards
+    print("\nPlayer's hand: ", *player.cards, sep = '\n  ')
+    
+def show_all(player,dealer):
+    
+    #Show all the dealer cards
+    print("\nDealer's hand: ", *dealer.cards, sep = '\n  ')
+        
+    #Calculate and display value
+    print(f"Value of Dealer's hand is {dealer.value}")
+    
+    #Show all the players cards
+    print("\nPlayer's hand: ", *player.cards, sep = '\n  ')
+          
+    #Calculate and display value
+    print(f"Value of Player's hand is {player.value}")
